@@ -85,21 +85,21 @@ app.use(studentRouter);
 
 //         // DELETE data
 
-//         app.delete("/students/:id", async (req, res) => {
-//             try{
-//                 const _id = req.params.id;
-//                 const deleteStudent = await Student.findByIdAndDelete(req.params.id);
+        // app.delete("/students/:id", async (req, res) => {
+        //     try{
+        //         const _id = req.params.id;
+        //         const deleteStudent = await Student.findByIdAndDelete(req.params.id);
 
-//                 if(!daleteStudent){
-//                     return res.status(400).send();
-//                 }else{
-//                     res.send(deleteStudent);
-//                 }
+        //         if(!daleteStudent){
+        //             return res.status(400).send();
+        //         }else{
+        //             res.send(deleteStudent);
+        //         }
                 
-//             }catch(e){
-//                 res.status(500).send(e);
-//             }
-//         })
+        //     }catch(e){
+        //         res.status(500).send(e);
+        //     }
+        // })
 
 
 
